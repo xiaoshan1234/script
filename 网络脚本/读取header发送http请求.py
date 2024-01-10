@@ -14,7 +14,7 @@ def read_header_from_file(filename:str):
 
     return header
 if __name__ == '__main__':
-    myheader = read_header_from_file("./web_manage/header.txt")
+    myheader = read_header_from_file("./header.txt")
     myheader['user-agent'] = fake_useragent.UserAgent().random
     print(myheader)
     while True:
