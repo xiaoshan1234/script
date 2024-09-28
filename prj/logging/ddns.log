@@ -1,0 +1,3 @@
+2024-06-10 22:29:39,702 - MyLogger - INFO - hello
+2024-06-10 22:29:39,702 - MyLogger - INFO - world
+2024-06-10 22:29:39,702 - MyLogger - ERROR - error
