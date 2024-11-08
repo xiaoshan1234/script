@@ -38,7 +38,7 @@ class UsmpDiscover(Packet):
 bind_layers(Ether, UsmpDiscover, type=0xabb0)  # 使用一个假设的以太网类型
 
 
-packets = rdpcap(r'prj\usmp\usmp.pcapng')
+packets = rdpcap(r'prj\usmp\usmp2.pcapng')
 
 for packet in packets:
     if packet.haslayer(UsmpDiscover) and packet[Ether].dst == 'ff:ff:ff:ff:ff:ff':
